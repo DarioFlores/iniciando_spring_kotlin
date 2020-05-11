@@ -1,5 +1,6 @@
 package com.kotlinApi.primerProject.model
 
+import java.time.LocalDate
 import java.util.*;
 import javax.persistence.*
 
@@ -9,7 +10,7 @@ data class Persona (
         val dni:Long,
         val nombre:String,
         val apellido:String,
-        val fechaNac:Date?
+        val fechaNac:LocalDate?
 ) {
 
 //    val persona = Persona(38628166,"Dario", "Flores", null);
